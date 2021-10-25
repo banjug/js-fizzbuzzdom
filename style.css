@@ -12,6 +12,10 @@
     padding: 50px 0;
 }
 
+h1 {
+    font-size: 100px;
+}
+
 .inner-container {
     width: 90%;
     margin: 50px auto 0;
@@ -21,13 +25,15 @@
 }
 
 .box {
-    width: calc((100% / 7) - 20px);
+    width: calc((100% / 7) - 40px);
     aspect-ratio: 1;
-    margin: 0 10px 20px;
+    margin: 0 20px 40px;
     background-color: #1389b2;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .fizz {
