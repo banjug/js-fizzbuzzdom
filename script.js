@@ -19,7 +19,7 @@ const innContainer = document.querySelector('.inner-container');
 
 for (let i=1; i <=100; i++) {
     // controlla se è multiplo di 15, aggiunge div con la classe e stringa fizzbuzz
-    if (i % 15 == 0) {
+    if (i % 3 == 0 && i % 5 == 0) {
         innContainer.innerHTML += `<div class="box fizzbuzz">fizzbuzz</div>`;
     }
     // controlla se è multiplo di 3, aggiunge div con la classe e stringa fizz
@@ -46,7 +46,7 @@ for (let i=1; i <=100; i++) {
 //     let square = document.createElement('div');
 //     square.classList.add('box');
     
-//     if (i % 15 == 0) {
+//     if (i % 3 == 0 && i % 5 == 0) {
 //         // se multiplo di 15 aggiunge classe .fizzbuzz, inserisce stringa 'fizzbuzz' all'interno del div e aggiunge div all'interno del container 
 //         square.classList.add('fizzbuzz');
 //         square.append('fizzbuzz');
